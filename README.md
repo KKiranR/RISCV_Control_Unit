@@ -31,4 +31,5 @@ iverilog <primitive.v file ><verilog of the library used for synthesis><designfi
 gtkwave output.vcd
 ```
 ### Output:
-![Screenshot from 2023-09-03 16-59-23](https://github.com/KKiranR/RISCV_Control_Unit/assets/89727621/6abf6360-ff49-4c33-b132-bbdecb671693)
+![image](https://github.com/KKiranR/RISCV_Control_Unit/assets/89727621/785e84c6-e591-47a4-88c1-7559dbc11ca8)
+
