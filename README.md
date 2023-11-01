@@ -33,3 +33,41 @@ gtkwave output.vcd
 ### Output:
 ![image](https://github.com/KKiranR/RISCV_Control_Unit/assets/89727621/785e84c6-e591-47a4-88c1-7559dbc11ca8)
 
+# Physical Design
+## Reports
+### Synthesis Stage:
+- Area
+ ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/aec22222-dd70-442e-9d67-9e1ea322e50c)
+- Statistics
+  ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/1b9932b7-6986-4f34-bdd4-a8d9dc90d07c)
+### Floorplan :
+Command Used:
+ * Must be run in their respective directories of results
+``` bash=
+magic -T /home/kiran/.volare/sky130A/libs.tech/magic/sky130A.tech lef ../../tmp/merged.nom.lef def CONTROL.def
+```
+![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/476af820-9b52-46fa-b422-8ba5d3adffb9)
+
+### Placement:
+``` bash=
+magic -T /home/kiran/.volare/sky130A/libs.tech/magic/sky130A.tech lef ../../tmp/merged.nom.lef def CONTROL.def
+```
+![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/9c016880-f717-4fc4-99f4-ddb714faf9eb)
+
+### CTS:
+* CTS log is added with the designs files
+![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/eb316185-c0f7-439f-b45e-9223a207aa1f)
+
+### Routing:
+``` bash=
+magic -T /home/kiran/.volare/sky130A/libs.tech/magic/sky130A.tech lef ../../tmp/merged.nom.lef def CONTROL.def
+```
+![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/a47f5424-8414-494c-bac1-8a0bf1540edc)
+
+### magic antenna check
+
+All the log files are added with the design files
+
+
+
+
