@@ -23,6 +23,8 @@ write_verilog control_netlist.v
 ```
 ## Schematic:
 ![Screenshot from 2023-09-03 16-54-20](https://github.com/KKiranR/RISCV_Control_Unit/assets/89727621/bcac52ba-1cf0-4f7f-991c-90e28366b905)
+![Screenshot from 2023-11-01 19-10-54](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/ca61ce3c-a363-46d4-8056-f566e627b56e)
+
 ## Gate level simulation
 ### Commands:
 ```bash=
@@ -34,7 +36,11 @@ gtkwave output.vcd
 ![image](https://github.com/KKiranR/RISCV_Control_Unit/assets/89727621/785e84c6-e591-47a4-88c1-7559dbc11ca8)
 
 # Physical Design
+![Screenshot from 2023-11-01 19-10-39](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/e0e041c2-f989-46e1-8ce9-e1caa92e0515)
+
+
 ## Reports
+
 ### Synthesis Stage:
 - Area
  ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/aec22222-dd70-442e-9d67-9e1ea322e50c)
