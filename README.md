@@ -43,8 +43,10 @@ gtkwave output.vcd
 
 ### Synthesis Stage:
 - Area
+  
  ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/aec22222-dd70-442e-9d67-9e1ea322e50c)
 - Statistics
+  
   ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/1b9932b7-6986-4f34-bdd4-a8d9dc90d07c)
 ### Floorplan :
 Command Used:
