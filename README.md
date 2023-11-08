@@ -66,6 +66,13 @@ magic -T /home/kiran/.volare/sky130A/libs.tech/magic/sky130A.tech lef ../../tmp/
 * CTS log is added with the designs files
 ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/eb316185-c0f7-439f-b45e-9223a207aa1f)
 
+- area:
+  ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/072a41bc-c2e7-42dc-98dc-69a9a79d4cd1)
+- POWER:
+ ![image](https://github.com/KKiranR/pes_RISCV_Control_Unit/assets/89727621/d5225e27-2db2-4dea-b5db-db74f4f57248)
+
+  
+
 ### Routing:
 ``` bash=
 magic -T /home/kiran/.volare/sky130A/libs.tech/magic/sky130A.tech lef ../../tmp/merged.nom.lef def CONTROL.def
